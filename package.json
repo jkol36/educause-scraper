@@ -1,0 +1,33 @@
+{
+  "name": "educause-scraper",
+  "version": "1.0.0",
+  "description": "scrapes educasue",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register -t 20000",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkol36/educause-scraper.git"
+  },
+  "keywords": [
+    "educause",
+    "scraper"
+  ],
+  "author": "Jon Kolman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkol36/educause-scraper/issues"
+  },
+  "homepage": "https://github.com/jkol36/educause-scraper#readme",
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "bluebird": "^3.5.0",
+    "superagent": "^3.5.2",
+    "superagent-bluebird-promise": "^4.2.0"
+  }
+}
