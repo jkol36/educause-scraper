@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 
 
 export const getProfileUrlsForPage = page => {
-  let url = `https://members.educause.edu/api/MemberSearch?pId=4a86fa47-eb9b-4ef3-b6b6-f1a082160768&membertype=Individual&page=${page}&perPage=100&sortBy=relevance&sortOrder=desc`
+  let url = `https://members.educause.edu/api/MemberSearch?pId=4a86fa47-eb9b-4ef3-b6b6-f1a082160768&membertype=Individual&page=${page}&perPage=20&sortBy=relevance&sortOrder=desc`
   return agent
         .get(url)
         .then(res => res.body.results.map(result => result.fullUrl))
