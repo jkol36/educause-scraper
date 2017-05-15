@@ -27,7 +27,11 @@
     "babel-preset-es2016": "^6.24.1",
     "babel-register": "^6.24.1",
     "bluebird": "^3.5.0",
+    "cheerio": "^0.22.0",
+    "node-fetch": "^1.6.3",
     "superagent": "^3.5.2",
-    "superagent-bluebird-promise": "^4.2.0"
+    "superagent-bluebird-promise": "^4.2.0",
+    "webdriverio": "^4.8.0",
+    "ya-csv": "^0.10.1"
   }
 }
