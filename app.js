@@ -8,7 +8,7 @@ import { parseProfile } from './parser'
 
 const createPageNumbers = () => {
   let pageNumbers = []
-  for(let i=568; i< 600; i++) {
+  for(let i=690; i< 700; i++) {
     pageNumbers.push(i)
   }
   return pageNumbers
@@ -33,7 +33,7 @@ const headersForCsv = ['name', 'tite', 'organization', 'location', 'phone number
 
 
 
-let pagesScraped =  568
+let pagesScraped =  690
 
 const runInitial = () => {
   writeHeadersToCsv(headersForCsv, writer)
