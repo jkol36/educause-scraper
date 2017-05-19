@@ -34,6 +34,7 @@ export const getLoginUrl = () => {
 }
 export const getMemberProfile = shortUrl => {
   let url = `https://members.educause.edu${shortUrl}`
+  console.log(`getting ${url}`)
  var headers = {
     'Accept-Encoding': 'gzip, deflate, sdch, br',
     'Accept-Language': 'en-US,en;q=0.8,sv;q=0.6',
